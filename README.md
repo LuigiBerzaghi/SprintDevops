@@ -55,13 +55,13 @@ http://<IP_PUBLICO>:8080/api/patios
 
 ## Finalizando
 
-Para evitar uso desnecessário de créditos na Azure, podemos **deletar a VM após a avaliação** com o comando:
+Após os testes, para evitar uso desnecessário de créditos na Azure, podemos **deletar a VM** com o comando:
 
 ```bash
 az vm delete --resource-group devops-rg --name devops-vm --yes
 ```
 
-Ou remover o grupo inteiro (recomendado):
+Ou **remover o grupo inteiro** (recomendado):
 
 ```bash
 az group delete --name devops-rg --yes --no-wait
