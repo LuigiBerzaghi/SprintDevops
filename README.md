@@ -29,6 +29,11 @@ bash azure-cli.sh
 
 Após isso esse script cria a VM na Azure, instala Docker, envia o JAR e sobe a API automaticamente.
 
+Em alguns momentos da execução do script, ele pede a senha do usuário criado, no nosso caso é:
+```
+RM555516@Fiap
+```
+
 Aguarde a execução completa até aparecer algo como:
 
 ```
